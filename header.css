@@ -1,0 +1,75 @@
+.preview-header {
+  background-color: rgb(38, 38, 38);
+  height: 54px;
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+}
+
+.envato-name {
+  display: block;
+  height: 18px;
+  position: absolute;
+  bottom: 18px;
+  top: 0;
+  width: 152px;
+  font-size: 23px;
+  height: 18px;
+  line-height: 54px;
+  color: white;
+  left: 30px;
+}
+
+.envato-name-name {
+  position: absolute;
+  left: 10px;
+}
+.buy-now {
+  position: absolute;
+  top: 10px;
+  right: 18px;
+  color: white;
+  background-color: rgb(27, 154, 27);
+  padding-right: 14px;
+  padding-left: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+}
+
+.market-name {
+  color: rgb(4, 205, 4);
+  filter: brightness(150%);
+  position: absolute;
+  left: 80px;
+}
+
+.envato-logo-name {
+  width: 16px;
+  position: absolute;
+  left: -7px;
+  top: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  min-height: 100%;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}

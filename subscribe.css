@@ -1,0 +1,201 @@
+.subscribe-div {
+  height: 660px;
+  width: 100%;
+  /* border-color: rgb(123, 12, 12);
+  border-width: 2px;
+  border-style: solid; */
+  overflow: hidden;
+  position: relative;
+}
+
+.subscribe-up {
+  height: 130px;
+  width: 85%;
+  /* border-color: rgb(27, 123, 12);
+  border-width: 2px;
+  border-style: solid; */
+  position: absolute;
+  top: 0px;
+  left: 7%;
+  background-color: black;
+}
+
+.subscribe-email {
+  height: 60px;
+  position: absolute;
+  left: 6%;
+  top: 25%;
+}
+
+.subscribe-text {
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(255 255 255);
+  font-weight: 700;
+  position: absolute;
+  left: 13%;
+  top: 25%;
+}
+
+.email-div {
+  position: absolute;
+  right: 13%;
+  top: 27%;
+  width: 40%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding-bottom: 15px;
+  border-bottom-color: gray;
+  background-color: black;
+}
+
+.email-div::placeholder {
+  font-size: 16px;
+  color: white;
+}
+
+.email-div:focus {
+  color: white;
+}
+
+.plane-email {
+  height: 25px;
+  position: absolute;
+  right: 13%;
+  top: 25%;
+  color: white;
+  /* background-color: red; */
+}
+
+.subscribe-down {
+  width: 100%;
+  height: 398px;
+  padding-top: 90px;
+  position: absolute;
+  top: 140px;
+}
+
+.amiso-subscribe {
+  height: 212px;
+  width: 21%;
+  /* border-color: rgb(123, 12, 12);
+  border-width: 2px;
+  border-style: solid; */
+  position: absolute;
+  left: 9%;
+}
+
+.explore-subscribe {
+  height: 220px;
+  width: 9%;
+  /* border-color: rgb(123, 12, 12);
+  border-width: 2px;
+  border-style: solid; */
+  position: absolute;
+  left: 34%;
+  cursor: pointer;
+}
+
+.portfolio-subscribe {
+  height: 237px;
+  width: 15%;
+  /* border-color: rgb(123, 12, 12);
+  border-width: 2px;
+  border-style: solid; */
+  position: absolute;
+  left: 51%;
+}
+
+.thumb-packet {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding-top: 20px;
+}
+.contact-subscribe {
+  height: 237px;
+  width: 15%;
+  /* border-color: rgb(123, 12, 12);
+  border-width: 2px;
+  border-style: solid; */
+  position: absolute;
+  left: 76%;
+}
+
+.help-text {
+  color: white;
+  font-size: 15px;
+}
+
+.contact-icon {
+  height: 12px;
+  margin-top: 24px;
+}
+
+.contact-2-icon {
+  height: 15px;
+  margin-top: 24px;
+}
+
+.copyright-div {
+  position: absolute;
+  bottom: 2%;
+  height: 60px;
+  width: 100%;
+  border-top-color: rgb(64, 64, 64);
+  border-top-width: 1px;
+  border-top-style: solid;
+  text-align: center;
+  color: rgb(147, 147, 147);
+  padding-top: 50px;
+}
+
+.thumb {
+  border-radius: 10px;
+  display: block;
+}
+#text-subscribe-right {
+  color: rgb(143, 143, 143);
+  line-height: 30px;
+  font-family: Manrope, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 20px;
+  display: block;
+  margin-top: 8%;
+  padding-bottom: 20px;
+}
+
+#subscribe-header {
+  position: relative;
+  font-weight: 600;
+  color: rgb(255 255 255);
+  line-height: 1.2em;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-family: Manrope, sans-serif;
+}
+
+#explore-text {
+  position: relative;
+  font-weight: 300;
+  color: rgb(255 255 255);
+  line-height: 1.2em;
+  margin-top: 15px;
+  font-size: 15px;
+  display: block;
+  font-family: Manrope, sans-serif;
+}
+
+#contact-text {
+  position: relative;
+  font-weight: 300;
+  color: rgb(255 255 255);
+  line-height: 1.6em;
+  margin-top: 15px;
+  font-size: 15px;
+  display: block;
+  font-family: Manrope, sans-serif;
+}
